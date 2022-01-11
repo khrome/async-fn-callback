@@ -1,0 +1,8 @@
+{
+  "name": "async-fn-callback",
+  "version": "0.0.1",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}
