@@ -12,12 +12,8 @@ Usage
 const Δ = require('async-fn-callback')
 
 Δ(async function(){
-    let value = await new Promise((resolve, reject)=>{
-        setTimeout(()=>{
-            reject(new Error('This is an error!'))
-        }, 10);
-    })
-    return value;
+    // use await as much as you want
+    // then return something
 }, (err, result)=>{
     //promises underneath, but idiomatic to callbacks
 });
